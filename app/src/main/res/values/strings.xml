@@ -1,0 +1,4 @@
+<resources>
+    <!-- Action Bar title name. -->
+    <string name="app_name" >Stopwatch</string>
+</resources>

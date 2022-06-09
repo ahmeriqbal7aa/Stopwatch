@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="StopwatchAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Action Bar color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Status Bar color. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Action Bar title color. -->
+        <item name="titleTextColor">@color/colorYellow</item>
+    </style>
+    <!-- No Action Bar style manually. -->
+    <style name = "NoActionBar" parent = "StopwatchAppTheme">
+        <item name = "windowActionBar">false</item>
+        <item name = "windowNoTitle">true</item>
+
+    </style>
+    <!-- Action Bar font family. -->
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="fontFamily">monospace</item>
+    </style>
+</resources>
